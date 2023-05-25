@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 'errorcode_1185'
-subtitle: '学海无涯，回头是岸 qwq'
-description: '一个分享编程相关知识的网站'
+title: 'mazuchang'
+subtitle: '憧憬美好的事情即将发生'
+description: '前行纵然步履维艰，你仍旧走在正确的道路上。'
 keywords:
-author: mzc
-language: en
+author: mazuchang
+language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://mazuchang.github.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -97,9 +97,12 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+# theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repository: git@github.com:mazuchang/mazuchang.github.io.git
+  branch: master
